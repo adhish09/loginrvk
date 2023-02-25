@@ -1,0 +1,131 @@
+.frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-md);
+    background-color: #cecece;
+    width: 500px;
+    height: 700px;
+  }
+  .start-your-journey {
+    position: relative;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+  }
+  .on-to-go,
+  .on-to-go1,
+  .on-to-go2 {
+    position: absolute;
+    top: 207px;
+    left: 150px;
+    border-radius: var(--br-md);
+    background-color: var(--color-seagreen);
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-sm) var(--padding-md);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+  }
+  .on-to-go1,
+  .on-to-go2 {
+    top: 327px;
+  }
+  .on-to-go2 {
+    top: 522px;
+  }
+  .group-child {
+    top: 12px;
+    left: -1px;
+    border-top: 2px solid var(--color-darkgray);
+    box-sizing: border-box;
+    width: 72px;
+    height: 2px;
+  }
+  .group-child,
+  .group-item,
+  .or {
+    position: absolute;
+  }
+  .group-item {
+    top: 12px;
+    left: 103px;
+    border-top: 2px solid var(--color-darkgray);
+    box-sizing: border-box;
+    width: 72px;
+    height: 2px;
+  }
+  .or {
+    top: 0;
+    left: 75px;
+    letter-spacing: -0.24px;
+    line-height: 25px;
+  }
+  .line-parent,
+  .login-or-create {
+    position: absolute;
+    font-family: var(--button-text-style);
+    color: var(--color-black);
+  }
+  .line-parent {
+    top: 437px;
+    left: 163px;
+    width: 174px;
+    height: 25px;
+    text-align: left;
+  }
+  .login-or-create {
+    top: 94px;
+    left: 90px;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 33px;
+  }
+  .rectangle-parent {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    font-size: var(--button-text-style-size);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  
+
+
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --button-text-style: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --button-text-style-size: 16px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-darkgray: #969696;
+  --color-seagreen: #306d50;
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-sm: 12px;
+  --padding-md: 45px;
+
+  /* border radiuses */
+  --br-md: 10px;
+}
